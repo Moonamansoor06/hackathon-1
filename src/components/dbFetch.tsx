@@ -1,7 +1,7 @@
 const BASE_URL =
   process.env.NODE_ENV == "development"
     ? "http://localhost:3000"
-    : "https://ecommerce-sanity-sage.vercel.app";
+    : "https://hackathon-1-blond.vercel.app/";
 
 
 export async function getData() {
